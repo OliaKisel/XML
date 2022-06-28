@@ -1,1 +1,20 @@
-
+<?xml version="1.0"?>
+<BUGREPORT>
+  <ID>101</ID>
+  <Summary>Enter a date in DD MM YYYY format in the Birth Day field</Summary>
+  <Description>The date in the Birth Day field should be displayed in MM DD YYYY format</Description>
+  <ActualResult>During the testing process, when manually filling the Birth Day field, you can enter the date in the format DD MM YYYY</ActualResult>
+  <ExpectedResult>Ignoring DD MM YYYY format</ExpectedResult>
+  <Stepstoreproduce>
+    1 Open the Husband tab
+    2 Click the [New Database] button
+    3 Enter 25.12.1960 in the field Birth Day
+  </Stepstoreproduce>
+  <Reproducibility>always</Reproducibility>
+  <Severity>major</Severity>
+  <Priority>high</Priority>
+  <Symptom>variance from specs</Symptom>
+  <Workaround>no</Workaround>
+  <Comments>null</Comments>
+  <Attachments>null</Attachments>
+</BUGREPORT>
